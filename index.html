@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br" dir="ltr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/estilo.css">
+    <link rel="icon" href="img/logo-salesiano.png">
+    <title>Html Básico Unisalesiano</title>
+</head>
+
+<body>
+    <header>
+        <h1 class="title">Calculadora básico</h1>
+    </header>
+    <main>
+        <form class="form-calculadora" id="form">
+            <input type="number" name="num1" placeholder="Digite o primeiro número" required class="inputs" id="input1">
+            <input type="number" name="num2" placeholder="Digite o segundo número" required class="inputs" id="input2">
+            <select name="operation" required class="select-operation" id="select">
+                <option value="">Selecione a operação</option>
+                <option value="Adicionar">Adição</option>
+                <option value="Subtracao">Subtração</option>
+                <option value="Multiplicacao">Multiplicação</option>
+                <option value="Divisao">Divisão</option>
+            </select>
+            <button type="submit" class="btn-calcular" id="btn">Calcular</button>
+
+            <p class="resultado" id="resultado"></p>
+        </form>
+    </main>
+    <footer>
+
+    </footer>
+
+    <script src="script/script.js"></script>
+</body>
+
+</html>
